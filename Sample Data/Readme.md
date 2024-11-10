@@ -1,6 +1,6 @@
 # Description
 
-In this competition, your task is to predict the start and end of human steps from a set of 6 signals. The data was recorded using accelerometer and gyroscope sensors, which were held in the hand during 4 different activities, including simple walking, walking up and down stairs, and standing still.
+The task is to predict the start and end of human steps from a set of 6 signals. The data was recorded using accelerometer and gyroscope sensors, which were held in the hand during 4 different activities, including simple walking, walking up and down stairs, and standing still.
 
 #### Training data
 
@@ -30,9 +30,4 @@ index,start,end
 .
 102090,0.0,1.0
 ```
-
-#### Evaluation
-
-You will upload your predictions to Kaggle (link will come soon). It will calculate your score automatically. It uses Mean Columnwise Accuracy Precision (MCAP) metric to produce your score. It is calculated as described in <https://scikit-learn.org/stable/modules/generated/sklearn.metrics.average_precision_score> .
-
 ## 
